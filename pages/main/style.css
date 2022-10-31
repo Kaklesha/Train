@@ -27,7 +27,11 @@ header .container{
     height: 90px;
     border: none;
     /* background-color: rgba(33, 155, 33, 0.7)  34,139,34,0.7*/
-    background: #fff url(../../assets/background/27622.png) center center/cover repeat ;
+
+
+    /* background: #fff url(../../assets/background/27622.png) center center/cover repeat ; */
+
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,0.7) 0%, rgba(12,116,117,0.7) 90% );
     
     /* background: rgb(34,139,34);
 background: linear-gradient(0deg, rgba(103,230,103,0.7) 0%, rgba(34,139,34,1) 100%); */
@@ -125,12 +129,14 @@ header  svg{
    max-width: 1280px;
    background: #000 url(../../assets/img1.akspic.ru-avto-gruzovik-doroga-trejler_telezhki_semi-skaniya-4096x3072.jpg);
    background-position: center;
-   background-repeat: no-repeat;
+   background-repeat: repeat;
   /*  background-size: cover;*/
   background-size: cover;
     height: 765px;
     width: 1280px;
     width: 100%;
+
+    
     /*
     border: 10px solid blue;
     */
@@ -201,7 +207,7 @@ color: #FFFFFF;
     
     
     -webkit-filter: hue-rotate(102deg);
-    filter: hue-rotate(101deg);
+    filter: rgba(14,174,87,0.7);
 
     flex-direction: column;
     display: block;
@@ -288,6 +294,10 @@ border: 0px solid #000000; */
 
 .footer__title{
    
+}
+
+.footer-svg{
+    filter: invert(1);
 }
 footer .container{
     align-items: flex-start;
