@@ -262,6 +262,40 @@ box-decoration-break: clone;
     
 }
 
+.itc-slider__item {
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.itc-slider__item h3{
+
+    margin-bottom:10px ;
+    color: rgb(255, 255, 255);
+   /* font-size: 18px;
+     
+     */
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+
+.spancoluer{
+/* background: linear-gradient(135deg, rgba(37,219,237) 0%,rgba(183,60,210) 100%);
+	 */
+
+
+     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,0.7) 0%, rgba(12,116,117,0.7) 90% );
+    
+}
+
+
 .start-screen__text__block{
 
 }
@@ -332,23 +366,6 @@ box-decoration-break: clone;
   }
 
   .itc-slider__item:nth-child(1) {
-    background-color: #f44336;
-  }
-
-  .itc-slider__item:nth-child(2) {
-    background-color: #9c27b0;
-  }
-
-  .itc-slider__item:nth-child(3) {
-    background-color: #3f51b5;
-
-    background: #000 url(../../assets/slider1/geran-de-klerk-qzgN45hseN0-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .itc-slider__item:nth-child(4) {
     background-color: #03a9f4;
 
     background: #000 url(../../assets/slider1/antoine-beauvillain-0Kw44ElHN3A-unsplash.jpg);
@@ -357,15 +374,37 @@ box-decoration-break: clone;
     background-size: cover;
   }
 
-  .itc-slider__item:nth-child(5) {
-    box-sizing: border-box;
-    max-width: 1280px;
-    /* height: 500px; */
-    background: #000 url(../../assets/slider1/andy-li-CpsTAUPoScw-unsplash.jpg);
+  .itc-slider__item:nth-child(2) {
+    background: #000 url(../../assets/slider1/geran-de-klerk-qzgN45hseN0-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
-   /*  background-size: cover;*/
-   background-size: cover;
+    background-size: cover;
+  }
+
+  .itc-slider__item:nth-child(3) {
+  
+    background: #000 url(../../assets/slider1/antoine-beauvillain-0Kw44ElHN3A-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .itc-slider__item:nth-child(4) {
+ 
+    background: #000 url(../../assets/slider1/geran-de-klerk-qzgN45hseN0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .itc-slider__item:nth-child(5) {
+    background-color: #03a9f4;
+
+    background: #000 url(../../assets/slider1/antoine-beauvillain-0Kw44ElHN3A-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
    
    /*  border-radius: 10px 10px 10px 10px;
 -moz-border-radius: 10px 10px 10px 10px;
@@ -639,6 +678,23 @@ box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
         */
    }
 
+   .itc-slider__item h3{
+
+    margin-bottom:10px ;
+    color: rgb(255, 255, 255);
+   /* font-size: 18px;
+     
+     */
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+
+
 header image{
     width: 90px;
 }
@@ -649,16 +705,17 @@ header h1{
     .about__img {
         /* border: 5px solid red; */
         width: 300px;
-        height: 408px;
+        height: 208px;
         width: 90%;
         margin: auto;
     }
     .about__text{
         width: 90%;
+        font-size: 18px;
     }
 
     .about .container {
-        gap: 80px;
+        gap: 20px;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -682,6 +739,11 @@ header h1{
         letter-spacing: 0.06em;
         color: rgb(34,139,34);
     }
+    .about__text p {
+       
+        font-size: 20px;
+       
+    }
 
     footer {
         padding-top: 30px;
@@ -689,7 +751,7 @@ header h1{
     footer .container {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 65px 60px;
+        gap: 35px 30px;
     }
     .footer__contacts, .footer__locations {
         padding-top: 0;
