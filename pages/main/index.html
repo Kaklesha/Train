@@ -5,48 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" media="all" >   
+    <link href="../../itc-slider/itc-slider.css" rel="stylesheet">
+  <script src="../../itc-slider/itc-slider.js" defer></script>
+  <script src="../../nav-bundel/bundle.js" defer></script>
     <title> Document</title>
 </head>
 <body>
+    <section class="wrapper">
     <header>
-        <div class="container">
+        <div class="container"> 
+            <a href="javascript:void(0)" class="logo">
+            
+                
+                 <svg height="60px" width="80px">
+                    <image href="../../assets/j7tx7WxHu1Y (1).svg" height="60px" width="100px" alt="ddd" />
+                </svg>
+                <h1>ООО ТК «Континент»</h1>
+                
+                
+           </a>
+          <!--  <P>OOO Континенты</P>-->
+            
             <nav class="header-nav"> 
                 <ul class="ul">
-                    <li class="li-active">
-                    <a href="">О компании</a>
+
+                    <li class="burger-logo"> <a href="javascript:void(0)" class="logo">
+            
+                
+                    <svg height="60px" width="80px">
+                       <image href="../../assets/j7tx7WxHu1Y (1).svg" height="60px" width="100px" alt="ddd" />
+                   </svg>
+                   <h1>ООО ТК «Континент»</h1>
+                   
+                   
+                    </a>
                     </li>
                     <li class="li-active">
-                        <a href="">Виды транспорта</a>
+                    <a href="#about">О компании</a>
                     </li>
                     <li class="li-active">
-                        <a href="">Услуги</a>
+                        <a href="#type">Виды перевозок</a>
                     </li>
                     <li class="li-active">
-                        <a href="">Направления </a>
+                        <a href="#empls">Услуги</a>
                     </li>
                     <li class="li-active">
-                        <a href="">Контакты </a>
+                        <a href="#course">Направления </a>
+                    </li>
+                    <li class="li-active">
+                        <a href="#contact">Контакты </a>
                     </li>
                 </ul>
             </nav>
-            <div class="flop-menu"> </div>
-
+            <div class="burger-menu"> 
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
         </div>   
     </header>
-      <main>
-
-      </main>
+      
           <section class="start-screen" > 
+           
             <div class="container">
                 <div class="start-screen__text__block">
-                    <h2> Подзаголовок перевозок</h2>
+                  
+            
+                     
+                    <h2><span class="spancol">Транспортная <br> компания</span></h2>
                     <div  class="start-screen__text__block__sub">
-                        <p> 
-                            Компания    занимается грузоперевозками Lorem ipsum, 
-                            dolor sit amet consectetur adipisicing elit. 
-                            Sunt consectetur natus, porro ipsam necessitatibus
-                             aperiam.
-                        </p>
+                        <p class="spancol"> 
+                            <span >
+                            В настоящее время компания оказывает весь <br> 
+                            спектр логистических услуг связанных с<br>
+                            перемещением грузов на территории <br>
+                            Российской Федерации и за её пределами
+                        </span>
+                    </p>
                     </div>
                     <form action="">    </form>
                 </div>
@@ -54,43 +89,269 @@
                     <img src="" alt="">
                 </div>    
             </div>
+       
+
           </section>
-          <section class="about"> 
+        </section> 
+        <section class="about"> 
             <div class="container">
                 <div class="about__img">
-
+                    <img src=".../.../assets/frank-mckenna-tjX_sniNzgQ-unsplash.jpg" alt="">
                 </div>
-                <div class="about__text">
-                    <h3>О нашей компании ООО"Континенты"</h3>
+                <div id="about" class="about__text">
+                    <h3>О нашей компании </h3>
                     <div>
-                        Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Nobis cumque minus minima 
-                        labore quo quia! Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Nobis cumque minus minima 
-                        labore quo quia!
+                        <p>
+                            В ТК Континент трудится команда профессионалов,
+                            многие из которых длительное время занимаются 
+                            организацией транспортных перевозок и сумели 
+                            за это время зарекомендовать себя как 
+                            квалифицированные специалисты.
+                        </p>
                     </div>
                     <div>
-                        Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Nobis cumque minus minima 
-                        labore quo quia! Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Nobis cumque minus minima 
-                        labore quo quia!
+                        <p>
+                            В настоящее время компания оказывает весь 
+                            спектр логистических услуг связанных с
+                            перемещением грузов на территории 
+                            Российской Федерации и за её пределами
+                        </p>
                     </div>
+                    
+                </div>
+                 
+
+            </div>
+          </section>
+        <section class= "type-transport" id="type-trasport">   
+            <div class="container">
+                <h3>Виды грузоперевозок</h3>
+                <div id="type" class="type-transport__list">
+                    <div class="type-list__item">
+                        
+                        <img src="../../assets/srv-truck.svg" alt="автоперевозки">
+                        
+                        <h4 class="list-item__text">Автоперевозки</h4>
+                        
+                    </div>
+                    <div class="type-list__item">
+                        <img src="../../assets/srv-train.svg " alt="железноперевозки">
+                        <h4 class="list-item__text">Железнодорожные<br>перевозки</h4>
+                    </div>
+                    <div class="type-list__item">
+                        <img src="../../assets/srv-plane.svg" alt="авиаперевозки">
+                        <h4 class="list-item__text">Авиаперевозки</h4>
+                    </div>
+                    <div class="type-list__item">
+                        <img src="../../assets/srv-rover.svg " alt="досВтрудперевозки">
+                        <h4 class="list-item__text">Доставка грузов в<br>труднодоступные<br>места</h4>
+                    </div>
+                    <div class="type-list__item">
+                        <img src="../../assets/srv-multi.svg " alt="мультиперевозки">
+                        <h4 class="list-item__text">Мультимодальыне<br>перевозки</h4>
+                    </div>
+                    <div class="type-list__item">
+                        <img src="../../assets/srv-oversized.svg " alt="негабарперевозки">
+                        <h4 class="list-item__text">Негабаритные<br>перевозки</h4>
+                    </div>
+                    <!--  -->
+                    <!-- <div class="type-list__item">
+                        <img src="../../assets/ " alt="перевозки">
+                        <h4 class="list-item__text"> <br>перевозки</h4>
+                    </div> -->
+                </div>
+
+            </div>
+        </section>
+        <!--     -->    
+<section class="slider-info">
+    <div class="container">
+    
+        <div class="itc-slider" data-autoplay="true" data-interval="7000" data-loop="true" data-slider="itc-slider">
+          <div id="empls" class="itc-slider__wrapper">
+            <div class="itc-slider__items">
+
+                
+
+
+                
+              <div class="itc-slider__item">
+                <!-- Контент 1 слайда -->
+
+                <h3 ><span class="spancoluer">Доставка от двери до двери </span></h3>
+                <h3><span class="spancoluer">Отдельные машины</span></h3>
+                
+              </div>
+              <div class="itc-slider__item">
+                <!-- Контент 2 слайда -->
+                <h3><span class="spancoluer">Сбоные грузы</span></h3>
+                        <h3><span class="spancoluer">Контейнерые перевозки</span></h3>
+              </div>
+              <div class="itc-slider__item">
+                <!-- Контент 3 слайда -->
+                <h3><span class="spancoluer">Негабаритные перевозки</span></h3>
+                        <h3><span class="spancoluer">Перевозка опасных грузов</span></h3>
+              </div>
+              <div class="itc-slider__item">
+                <!-- Контент 4 слайда -->
+                
+                <h3><span class="spancoluer">Страхование груза</span></h3>
+                    <h3><span class="spancoluer"> Отслеживание груза в<br>реальном времени</span></h3>
+              </div>
+              <div class="itc-slider__item">
+                <!-- Контент 5 слайда -->
+                <h3><span class="spancoluer">Предварительный<br>расчёт стоимости</span></h3>
+                <h3><span class="spancoluer">Полная отчётность<br>и ведение документации</span></h3>
+              </div> -->
+            </div>
+          </div>
+          <button class="itc-slider__btn itc-slider__btn_prev"></button>
+          <button class="itc-slider__btn itc-slider__btn_next"></button>
+          <ol class="itc-slider__indicators">
+            <li class="itc-slider__indicator" data-slide-to="0"></li>
+            <li class="itc-slider__indicator" data-slide-to="1"></li>
+            <li class="itc-slider__indicator" data-slide-to="2"></li>
+            <li class="itc-slider__indicator" data-slide-to="3"></li>
+            <li class="itc-slider__indicator" data-slide-to="4"></li>
+          </ol>
+        </div>
+      
+      </div>
+    </section>
+    <!--  -->
+    
+         
+        
+          <section id="course" class="courses"> 
+            <div class="container">
+                <div class="courses__row">
+                <div class="courses__img1">
+                    <img src=".../.../assets/b" alt="">
+                </div>
+                <div class="courses__text">
+                    <h3>Перевозки по России</h3>
+                    <div>
+                        <p>
+                            Мы совершаем все виды автомобильных грузоперевозок по России.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="courses__row_m">
+                <div class="courses__img2">
+                    <img src=".../.../assets/frank-mckenna-tjX_sniNzgQ-unsplash.jpg" alt="">
+                </div>
+                <div  class="courses__text">
+                    <h3>Перевозки по СНГ</h3>
+                    <div>
+                        <p>
+                            Мы осуществляем доставку грузов в Белоруссию, 
+                            Казахстан, Абхазию, Армению, Туркмению, Киргизию.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="courses__row">
+                <div class="courses__img3">
+                    <img src=".../.../assets/frank-mckenna-tjX_sniNzgQ-unsplash.jpg" alt="">
+                    </div>
+                    <div class="courses__text">
+                        <h3>Международные перевозки</h3>
+                        <!-- <div>
+                            <p>
+                                У международных перевозок есть главный <br>
+                                идентификационный признак – маршрут, которым<br>
+                                двигается груз, обязательно должен пересекать<br>
+                                границу хотя бы одного государства.<br>
+                        </p>
+                        </div> -->
+                        <div><p>
+                                Перевозка не будет считаться международной,
+                                если будет осуществляться в границах одной страны
+                                (например, России), даже в том случае, когда 
+                                грузоотправитель и грузополучатель будут 
+                                представителями разных государств.</p>
+                        </div>
+                        
+                    </div>
+                </div> 
+
+            </div>
+          </section>
+          <footer class="footer" id="footer">
+
+           <!-- <h3>Вы можете найти нас здесь</h3>
+
+
+            <a  href="https://yandex.ru/maps/-/CCU6AEEEcC"  target="_blank">Тракторная улица, 6, кв 6, Энгельс,<br> Саратовская область, 413117</a>
+               
+            <div class="mapyan" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/11147/engels/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Энгельс</a><a href="https://yandex.ru/maps/11147/engels/house/traktornaya_ulitsa_6/YE8Ydg5pSEMOQFtrfXh5c3tlbQ==/?ll=46.100389%2C51.482438&utm_medium=mapframe&utm_source=maps&z=16.8" style="color:#eee;font-size:12px;position:absolute;top:14px;">Тракторная улица, 6 на карте Энгельса — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCU6zPfbWB" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+            
+             -->
+            
+            <div class="container">
+                
+                <div class="footer__contacts">
+                    <div id="contact" class="footer__title">
+                        Контактная информация:
+                    </div>
+                   
+
+                    <a  href="mailto:kontinenttc@yandex.ru">
+                        <img  class="footer-svg" src="../../assets/icons/icon-email.svg" alt="ff" width="40" height="32">
+                        kontinenttc@yandex.ru</a>
+                    <p>Ольга</p>
+                    <a  href="tel:+79966262406">
+                        <img  class="footer-svg" src="../../assets/icons/icon-phone.svg" alt="ff" width="40" height="32">
+
+                                  
+                       tel:+799966262406</a>
+                    <p>Любовь</p>
+                    <a  href="tel:+79539777137">
+                        <img  class="footer-svg" src="../../assets/icons/icon-phone.svg" alt="ff" width="40" height="32">
+
+                        tel:+79539777137</a>
                 </div>
                 
-            </div>
-          </section>
-          <section class="our-company">
-            <div class="container">
-                <div class="our-company__wrapper">
-                    <h3>Слайдер видов перевозок</h3>
+                <div class="footer__info">
+                    <div class="footer__title">
+                    Юридическая информация
+                    </div>
+                    <p>ИНН 
+                    6449 1035 95<br>
+                    КПП
+                    644 901 001<br>
+                    ОГРН
+                    12264 00010 363<br>
+                    ОКПО
+                    7678 4263<br>
+                    ОКТМО
+                    63 650 101 001<br>
+                    </p>
+                    <p>
+                    Организация: Наименование<br>
 
+ООО <br>"ТРАНСПОРТНАЯ КОМПАНИЯ<br> КОНТИНЕНТ"
+                    </p>
+                    <a  href="mailto:"></a>
                 </div>
-
+                <div class="footer__location">
+                    <div class="footer__title">
+                      <p>Вы можете найти нас здесь</p>
+                        </div>
+                        <a  href="https://yandex.ru/maps/-/CCU6AEEEcC"  target="_blank">Тракторная улица, 6, кв 6, Энгельс,<br> Саратовская область, 413117</a>
+               
+                      
+                    </div>  
             </div>
-          </section>
-<!-- 
-    https://www.figma.com/file/BhULVGGIachSAjoBazhP9P/Travel?node-id=0%
+            <!-- <a  href="https://yandex.ru/maps/-/CCU6AEEEcC"  target="_blank"></a>
+                -->
+               
+          </footer>
+  <div class="container">
+            <div class="mapyan" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/11147/engels/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Энгельс</a><a href="https://yandex.ru/maps/11147/engels/house/traktornaya_ulitsa_6/YE8Ydg5pSEMOQFtrfXh5c3tlbQ==/?ll=46.100389%2C51.482438&utm_medium=mapframe&utm_source=maps&z=16.8" style="color:#eee;font-size:12px;position:absolute;top:14px;">Тракторная улица, 6 на карте Энгельса — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCU6zPfbWB" width="100%" height="800" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+                </div>
+  <!--  https://www.figma.com/file/BhULVGGIachSAjoBazhP9P/Travel?node-id=0%
     
     https://github.com/rolling-scopes-school/tasks/blob/master/tasks/travel/travel.md
 
