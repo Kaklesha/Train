@@ -306,9 +306,6 @@ box-decoration-break: clone;
 }
 
 
-.start-screen__text__block{
-
-}
 .type-transport__list{
     display: flex;
     gap: 55px 120px;
@@ -545,11 +542,23 @@ box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
     margin-bottom: 25px;
    
 }
-.about__text{
+.about__text {
     width: 50%;
   /* border: 1px solid orange;  */
   margin: 20px 40px 20px 10px;
+}
+
+.about__text p{
+    
+  /* border: 1px solid orange;  */
+ 
   
+  font-family: 'Tahoma';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+    letter-spacing: 0.06em;
 }
 
 .about__text h3{
@@ -564,6 +573,92 @@ box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
     letter-spacing: 0.06em;
     color: rgb(34,139,34);
 }
+
+/* ------------courses---------------------------------------------------
+ */
+
+
+  .courses .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*
+    
+    padding: 80px 10px 100px 10px;
+    
+    gap: 120px; */
+}
+.courses__img{
+    /* border: 5px solid red; */
+  width: 300px;
+    height: 408px;
+   width: 50%;
+   /* background: #000 url(../../assets/slider1/frank-mckenna-tjX_sniNzgQ-unsplash.jpg);
+    */
+   background: #fff url(../../assets/slider1/frank-mckenna-tjX_sniNzgQ-unsplash.jpg) center center/cover repeat;
+/* 
+   background-position: center;
+   background-repeat: repeat;
+    background-size: cover;
+  background-size: cover; */
+   margin: 20px 10px 20px 40px;
+   /* -webkit-box-shadow:0px 0px 99px 30px #00ff55 ;
+-moz-box-shadow:0px 0px 99px 30px #00ff55 ;
+box-shadow:0px 0px 99px 30px #00ff55 ; */
+-webkit-box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.courses__text div{
+   /*  border: 1px solid ;
+    border-color: rgb(38, 61, 54); */
+  
+  
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--color-dark-xl);
+    margin-bottom: 25px;
+   
+}
+.courses__text {
+    width: 50%;
+  /* border: 1px solid orange;  */
+  margin: 20px 40px 20px 10px;
+}
+
+.courses__text p{
+    
+  /* border: 1px solid orange;  */
+ 
+  
+  font-family: 'Tahoma';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+    letter-spacing: 0.06em;
+}
+
+.courses__text h3{
+    width: 370px;
+    margin-bottom: 25px;
+
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: rgb(34,139,34);
+}
+.courses__row{
+flex-direction: row;
+}
+/* ------------------------------------------------------
+ */
 /*+++++++++++++++END++++++++++++++++++++*/
 
 @media (max-width: 809px) and (min-width: 768px){
