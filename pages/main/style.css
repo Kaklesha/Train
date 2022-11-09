@@ -41,6 +41,7 @@ background: linear-gradient(0deg, rgba(103,230,103,0.7) 0%, rgba(34,139,34,1) 10
 header .header-nav{
    
 }
+
 header h1{
     font-family: 'Tahoma';
     font-weight: 400;
@@ -622,7 +623,7 @@ box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
 .courses__img1{
     /* border: 5px solid red; */
   width: 300px;
-    height: 408px;
+    height: 200px;
    width: 40%;
    /* border: 5px solid green; */
    /* background: #000 url(../../assets/slider1/frank-mckenna-tjX_sniNzgQ-unsplash.jpg);
@@ -636,7 +637,7 @@ box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
    background-repeat: repeat;
     background-size: cover;
   background-size: cover; */
-   margin: 20px 10px 20px 10px;
+   margin: 10px 10px 20px 10px;
    /* -webkit-box-shadow:0px 0px 99px 30px #00ff55 ;
 -moz-box-shadow:0px 0px 99px 30px #00ff55 ;
 box-shadow:0px 0px 99px 30px #00ff55 ; */
@@ -649,7 +650,7 @@ box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2); */
 }.courses__img2{
     /* border: 5px solid red; */
   width: 300px;
-    height: 408px;
+    height: 200px;
    width: 40%;
    /* border: 5px solid green; */
    /* background: #000 url(../../assets/slider1/frank-mckenna-tjX_sniNzgQ-unsplash.jpg);
@@ -663,7 +664,7 @@ box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2); */
    background-repeat: repeat;
     background-size: cover;
   background-size: cover; */
-   margin: 20px 10px 20px 10px;
+   margin: 10px 10px 20px 10px;
    /* -webkit-box-shadow:0px 0px 99px 30px #00ff55 ;
 -moz-box-shadow:0px 0px 99px 30px #00ff55 ;
 box-shadow:0px 0px 99px 30px #00ff55 ; */
@@ -676,7 +677,9 @@ box-shadow:0px 0px 99px 30px #00ff55 ; */
 box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2); */
 
 
-}.courses__img3{
+}
+
+.courses__img3{
     /* border: 5px solid red; */
   width: 300px;
     height: 408px;
@@ -867,7 +870,7 @@ box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2); */
    
    color: #FFFFFF;  */
    
-   font-size: 50px;
+   font-size: 18px;
    color: #fff;
    /* background: #000000; */
    padding: 0 10px;
@@ -929,31 +932,54 @@ header h1{
         gap: 20px;
         flex-wrap: wrap;
         justify-content: center;
+        padding: 20px 10px 20px 10px;
+    }
+    .start-screen .container{
+        height: 200px;
+    }
+    .start-screen__text__block{
+        margin-top: 30px;
     }
     .start-screen__text__block h2 {
         font-family: 'Tahoma';
         font-style: normal;
-        font-size: 28px;
+        font-size: 20px;
         color: #fff;
         /* background: #000000; */
         padding: 0 10px;
-        line-height: 56px;}
+        line-height: 30px
+        ;}
     
+        .start-screen__text__block__sub{
+            font-family: 'Tahoma';
+        font-style: normal;
+        font-size: 14px;
+       
+        /* background: #000000; */
+        
+        line-height: 20px
+        }
+
+        .wrapper{
+            height: 350px;
+        }
+
     .about__text h3 {
         width: 200px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
         font-family: 'Tahoma';
         font-style: normal;
         font-weight: 400;
         font-size: 30px;
-        line-height: 45px;
+        line-height: 30px;
         letter-spacing: 0.06em;
         color: rgb(34,139,34);
     }
     .about__text p {
        
-        font-size: 20px;
-       
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.06em;
     }
 
     footer {
@@ -984,21 +1010,141 @@ header h1{
     height: 700px;
 }
 
+.courses .container{
+   
+    width: 100%;
+        display: flex;
+        padding: 30px 10px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    /* border: 1px solid grey; */
+    margin: auto;
+}
+
 .courses__row_m{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
 
     }
     .courses__row{
+        
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         /* border: 1px solid red; */
+
+        align-items: center;
+    justify-content: center;
     
         }
+        .courses__text {
+            width: 100%;
+/*             
+            font-size: 18px;
+            margin-left: 30px; */
+            align-items: center;
+            justify-content: center;
+margin: auto;
+            font-family: 'Tahoma';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                letter-spacing: 0.06em;
+        }
+
+        .courses__text h3 {
+            width: 100%;
+             font-size: 20px; 
+            
+            align-items: center;
+            justify-content: center;
+            margin: 10px 10px;
+        }
+
+
+        .courses__img1{
+            /* border: 5px solid red; */
+            width: 80%;
+            height: 200px;
+           
+        
+           background: #fff url(../../assets/background/rf-gruzoperevozki_1.jpg) center center/cover repeat;
+           background-position: center;
+           background-repeat: no-repeat;
+            background-size: contain;
+    
+           margin: 10px 10px 20px 10px;
+        
+        /* 
+        -webkit-box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2); */
+        }.courses__img2{
+            /* border: 5px solid red; */
+            width: 80%;
+            height: 200px;
+           
+    
+           background: #fff url(../../assets/background/7_dorog_sem_dorog.png) center center/cover repeat;
+           background-position: center;
+           background-repeat: no-repeat;
+            background-size: contain;
+         
+           margin: 10px 10px 20px 10px;
+      
+        
+        /* 
+        -webkit-box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2); */
+        
+        
+        }
+        
+        .courses__img3{
+            /* border: 5px solid red; */
+            width: 80%;
+            height: 200px;
+           
+         
+           background: #fff url(../../assets/background/Mezhdunarodnye-avtomobilnye-perevozki-gruzov.png) center center/cover repeat;
+           background-position: center;
+           background-repeat: no-repeat;
+            background-size: contain;
+        
+            transform: scale(-1, 1);
+        
+        
+           margin: 20px 10px 20px 10px;
+       
+        /* 
+        -webkit-box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 13px 6px 8px 0px rgba(34, 60, 80, 0.2); */
+        
+        
+        }
+        .courses__text p {
+
+font-size: 14px;
+font-family: 'Tahoma';
+font-style: normal;
+font-weight: 400;
+
+line-height: 30px;
+letter-spacing: 0.06em;
+margin: 10px 10px;
+
+        }
+
 
 }
